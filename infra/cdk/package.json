@@ -1,0 +1,21 @@
+{
+  "name": "@messmind/infra-cdk",
+  "version": "1.0.0",
+  "private": true,
+  "bin": {
+    "cdk": "bin/app.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "cdk": "cdk",
+    "synth": "cdk synth",
+    "diff": "cdk diff",
+    "deploy": "cdk deploy --all"
+  },
+  "devDependencies": {
+    "aws-cdk": "^2.150.0",
+    "aws-cdk-lib": "^2.150.0",
+    "constructs": "^10.3.0",
+    "typescript": "^5.6.3"
+  }
+}
