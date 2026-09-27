@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "references": [
+    { "path": "./packages/shared-types" },
+    { "path": "./backend/auth-service" },
+    { "path": "./backend/donations-service" },
+    { "path": "./backend/matching-service" },
+    { "path": "./backend/notifications-service" },
+    { "path": "./infra/cdk" }
+  ]
+}
