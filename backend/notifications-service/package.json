@@ -1,0 +1,13 @@
+{
+  "name": "@messmind/notifications-service",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./src/handlers/notificationHandlers.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sns": "^3.600.0",
+    "@messmind/shared-types": "*"
+  }
+}

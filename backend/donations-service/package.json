@@ -1,0 +1,17 @@
+{
+  "name": "@messmind/donations-service",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./src/handlers/donationHandlers.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.600.0",
+    "@aws-sdk/client-dynamodb": "^3.600.0",
+    "@aws-sdk/client-s3": "^3.600.0",
+    "@aws-sdk/lib-dynamodb": "^3.600.0",
+    "@aws-sdk/s3-request-presigner": "^3.600.0",
+    "@messmind/shared-types": "*"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@messmind/auth-service",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./src/handlers/authHandlers.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "^3.600.0",
+    "@messmind/shared-types": "*"
+  }
+}
